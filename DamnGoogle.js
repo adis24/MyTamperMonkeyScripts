@@ -9,17 +9,15 @@
 
 (function() {
     'use strict';
-
-    function damnGoogle() {
-
-        var cont = document.getElementById("submitChallenge");
-        if (cont === null) {
-            window.location.href = 'https://accounts.google.com/DisplayUnlockCaptcha';
-        } else {
-            cont.click();
-        }
+    var cont = document.getElementById("submitChallenge");
+    if (cont === null) {
+        setTimeout(reload, 30000);
+    } else {
+        cont.click();
     }
 
-    setTimeout(damnGoogle, 10000);
+    function reload() {
+        window.location.href = 'https://accounts.google.com/DisplayUnlockCaptcha';
+    }
 
 })();
