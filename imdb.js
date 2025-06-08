@@ -4,6 +4,7 @@
 // @author      Aditya Shrivastava
 // @description Just open the first damn link
 // @include https://www.imdb.com/find/?s=all&q=*
+// @include https://www.imdb.com/find?s=all&q=*
 // ==/UserScript==
 
 (function() {
