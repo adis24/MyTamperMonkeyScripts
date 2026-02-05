@@ -9,6 +9,6 @@
 
 (function() {
     'use strict';
-    document.getElementsByClassName("find-title-result")[0].getElementsByTagName("a")[0].click();
+    document.getElementsByClassName("ipc-metadata-list-summary-item")[0].getElementsByTagName("a")[0].click();
 
 })();
